@@ -24,7 +24,7 @@ Partial Class mpInterna
                         Me.mnuAplicacion.Items(3).ChildItems.Add(New MenuItem("Cambiar contraseña", "Cambiar contraseña", String.Empty, "~/Cambiarcontra.aspx", "_self"))
                         Me.mnuAplicacion.Items(3).ChildItems.Add(New MenuItem("Modificar permisos", "Modificar permisos", String.Empty, "~/Permisos.aspx", "_self"))
                         Me.mnuAplicacion.Items.Add(New MenuItem("Catálogos", "Catálogos", String.Empty, "~/Catalogos.aspx", "_self"))
-                        Me.mnuAplicacion.Items.Add(New MenuItem("Temas Relacionados", "Temas Relacionados", String.Empty, "~/Reportes_Content.aspx", "_self"))
+                        Me.mnuAplicacion.Items.Add(New MenuItem("Temas Relacionados", "Temas Relacionados", String.Empty, "~/TemasRelacionados.aspx", "_self"))
                         Me.mnuAplicacion.Items.Add(New MenuItem("Aviso de Privacidad", "Aviso de Privacidad", String.Empty, "~/privacidad.aspx", "_self"))
                         Me.mnuAplicacion.Items.Add(New MenuItem("Ayuda", "Ayuda", String.Empty, "~/ayuda2.aspx", "_self"))
                         Me.mnuAplicacion.Items.Add(New MenuItem("Cerrar sesión", "Cerrar sesión", String.Empty, "~/logout.aspx", "_self"))
