@@ -3,8 +3,8 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="cphCabecera" Runat="Server"></asp:Content>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="cphPrincipalInterna" Runat="Server">
-     <div class="col1" style="height:600px; font-size:14px;">
-        <p>El Sistema de Control y Seguimiento de Proyectos de Desarrollo, Transferencia de
+     <div class="col1" style="height:600px;" >
+        <p  style="font-size:18px;">El Sistema de Control y Seguimiento de Proyectos de Desarrollo, Transferencia de
         Tecnología e Investigación es una herramienta para difundir y compartir el conocimiento
         en el área forestal que se genera con los fondos gestionados por la Comisión Nacional
         Forestal.</p>
@@ -20,7 +20,7 @@
        
         <div class="col2" style="height:600px;">
             <%--<asp:Image ID="Image1" runat="server" ImageUrl="~/images/Imagen%20V.jpg" />--%>
-            <img src="images/Imagen%20VI.jpg" style="width:400px; height:500px;" />
+            <img src="images/Imagen%20VI.jpg" style="width:80%; height:80%;" />
         </div>
 </asp:Content>
 
