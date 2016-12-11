@@ -30,7 +30,7 @@
                                         
                                 </ul>
                     </div>
-        <br />
+     
         <br />
             <asp:Panel ID="idpnlEncabezado" runat="server" CssClass="encabezadoInterno" Visible="false"></asp:Panel>
             <div class="menu">
