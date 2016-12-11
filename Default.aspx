@@ -136,15 +136,22 @@
          con los proyectos de Investigación y desarrollo Tecnológico.</p>
         <br /><br />
         <h3>Entre sus alcances se encuentra:</h3>
-
-        <ul>
-        <li>Inventario de proyectos</li>
-        <li>Seguimiento administrativo</li>
-        <li>Seguimiento técnico</li>
-        <li>Reportes y estadísticas</li>
-        <li>Productos</li>
-        </ul>
-
+        <div>
+            <ul>
+                <li>Inventario de proyectos</li>
+                <li>Seguimiento administrativo</li>
+                <li>Seguimiento técnico</li>
+                <li>Reportes y estadísticas</li>
+                <li>Productos</li>
+            </ul>
+        </div>
+        <div>
+            
+            <div class="videos" style="margin-top:-23%; margin-left:50%;">
+                <h3>Video Tutorial</h3>
+                <iframe width="76%" height="100%" src="https://www.youtube.com/embed/fsO8fPdCtxQ?rel=0&autoplay=1&loop=1" frameborder="1" allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
 
     <div class="col2">
@@ -187,9 +194,9 @@
                     <iframe width="95%" height="100%" src="https://www.youtube.com/embed/FEb9BlcnFl8?rel=0&autoplay=1" frameborder="1" allowfullscreen></iframe>
                 </div>
                 <br />
-                <p style="text-align:center; margin-top=0; margin-bottom=0;">
+              <%--  <p style="text-align:center; margin-top=0; margin-bottom=0;">
                     <span  class="videos-link"><strong style="color:black;">Sitios Relacionados</strong> </span>
-                </p>
+                </p>--%>
                 
             </div>
        

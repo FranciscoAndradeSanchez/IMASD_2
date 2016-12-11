@@ -70,7 +70,7 @@ body
     width:56%;
 }
 .enlaces{
-    margin-top: -10%; 
+    margin-top: -12%; 
     margin-left: 64%;
     margin-right:2%;
 	width: 30%; 
@@ -85,6 +85,8 @@ body
 	height: 12%;
 	list-style-type: none;
    	text-decoration: none;
+       padding:0;
+       margin:auto;
 }
 .enlaces li{
     width:33%;
