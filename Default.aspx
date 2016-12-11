@@ -184,15 +184,15 @@
                 <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="txtContrasenia" ErrorMessage="Solo se permiten letras y numeros" ValidationExpression="^([a-zA-Z]|[0-9])+$">*</asp:RegularExpressionValidator>
                 <br /><br />
                 <div class="videos" style="margin-top:52%; margin-left:5%;">
-                    <iframe width="95%" height="100%" src="https://www.youtube.com/embed/fsO8fPdCtxQ?rel=0&autoplay=1" frameborder="1" allowfullscreen></iframe>
+                    <iframe width="95%" height="100%" src="https://www.youtube.com/embed/FEb9BlcnFl8?rel=0&autoplay=1" frameborder="1" allowfullscreen></iframe>
                 </div>
                 <br />
                 <p style="text-align:center; margin-top=0; margin-bottom=0;">
-                    <span  class="videos-link"><a href="https://www.youtube.com/channel/UCoWWO_lK5arImCwY6GbaeeQ?rel=0&autoplay=1" target="_blank"><strong style="color:black;">Canal CONAFOR</strong> <img src="images/2014/YOUTUBE.jpg" width="3%" height="3%" alt="CANAL CONAFOR" /></a></span>
+                    <span  class="videos-link"><strong style="color:black;">Sitios Relacionados</strong> </span>
                 </p>
-
+                
             </div>
-            
+       
             
        
            

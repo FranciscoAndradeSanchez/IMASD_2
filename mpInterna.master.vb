@@ -12,7 +12,7 @@ Partial Class mpInterna
                         Me.mnuAplicacion.Items.Add(New MenuItem("Proyectos", "Proyectos", String.Empty, "~/RegistroProyectos.aspx", "_self"))
 
                         Me.mnuAplicacion.Items.Add(New MenuItem("Reportes", "Reportes", String.Empty, "javascript:;", "_self"))
-                        Me.mnuAplicacion.Items(2).ChildItems.Add(New MenuItem("Estatus de proyectos", "Estatus de proyectos", String.Empty, "~/Reportes.aspx?rpt=1", "_self"))
+                        Me.mnuAplicacion.Items(2).ChildItems.Add(New MenuItem("Estatus de proyectos", "Estatus de proyectos", String.Empty, "~/reporteProyectos.aspx?rpt=1", "_self"))
                         Me.mnuAplicacion.Items(2).ChildItems.Add(New MenuItem("Reportes Financieros", "Reportes Financieros", String.Empty, "~/Reportes.aspx?rpt=2", "_self"))
                         'Me.mnuAplicacion.Items(2).ChildItems.Add(New MenuItem("Acumulado de proyectos", "Acumulado de proyectos", String.Empty, "~/Reportes.aspx?rpt=3", "_self"))
                         Me.mnuAplicacion.Items(2).ChildItems.Add(New MenuItem("Estatus de productos", "Estatus de productos", String.Empty, "~/Reportes.aspx?rpt=4", "_self"))
@@ -25,7 +25,7 @@ Partial Class mpInterna
                         Me.mnuAplicacion.Items(3).ChildItems.Add(New MenuItem("Modificar permisos", "Modificar permisos", String.Empty, "~/Permisos.aspx", "_self"))
                         Me.mnuAplicacion.Items.Add(New MenuItem("Catálogos", "Catálogos", String.Empty, "~/Catalogos.aspx", "_self"))
                         Me.mnuAplicacion.Items.Add(New MenuItem("Temas Relacionados", "Temas Relacionados", String.Empty, "~/TemasRelacionados.aspx", "_self"))
-                        Me.mnuAplicacion.Items.Add(New MenuItem("Aviso de Privacidad", "Aviso de Privacidad", String.Empty, "~/privacidad.aspx", "_self"))
+                        'Me.mnuAplicacion.Items.Add(New MenuItem("Aviso de Privacidad", "Aviso de Privacidad", String.Empty, "~/privacidad.aspx", "_self"))
                         Me.mnuAplicacion.Items.Add(New MenuItem("Ayuda", "Ayuda", String.Empty, "~/ayuda2.aspx", "_self"))
                         Me.mnuAplicacion.Items.Add(New MenuItem("Cerrar sesión", "Cerrar sesión", String.Empty, "~/logout.aspx", "_self"))
 

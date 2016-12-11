@@ -22,7 +22,7 @@
                                     <li style="float:left; width:450px;"><div class="encabezado_titulo" ><h3>Sistema de Control y Seguimiento de Proyectos de Desarrollo, Transferencia de Tecnología e Investigación</h3></div></li>
                                     <li style="width: 50%; float: right; height: 90px; margin-top: 10px;">
                                         <ul id="listado2" style="float:right;">
-                                            <li ><a href="http://www.conacyt.gob.mx/" target="_blank"><img src="images/2014/semarnat_150.png" width="25%" height="10%" alt=""  /></a></li>
+                                            <li ><a href="https://www.gob.mx/semarnat" target="_blank"><img src="images/2014/semarnat_150.png" width="25%" height="10%" alt=""  /></a></li>
                                             <li ><a href="http://www.gob.mx/conafor" target="_blank"><img src="images/2014/CONAFOR_150.png"  width="25%" height="10%" alt=""/></a></li>
                                             <li ><a href="http://www.conacyt.mx/index.php/fondos-y-apoyos/fondos-sectoriales" target="_blank"><img src="images/2014/CONACYT.png" width="25%" height="10%" alt="" /></a></li>
                                         </ul>
@@ -95,10 +95,11 @@
                                     <br />
                                     <ul class="listado3"  >                                          
                                                                                                               
-                                           <li ><a href="http://www.conacyt.gob.mx/" target="_blank"><img src="imagenes/twiter.png" width="30" height="30" alt=""  /></a></li>
-                                           <li ><a href="http://www.gob.mx/conafor" target="_blank"><img src="imagenes/facebook.jpg"  width="30" height="30" alt=""/></a></li>
-                                           <li ><a href="http://www.conacyt.mx/index.php/fondos-y-apoyos/fondos-sectoriales" target="_blank"><img src="imagenes/watts.jpg"  width="30" height="30" alt="" /></a></li>      
-                                           <li ><a href="http://www.gob.mx/conafor" target="_blank"><img src="imagenes/hotmail.png"  width="30" height="30" alt=""/></a></li>  
+                                             <li ><a href="https://twitter.com/Conafor" target="_blank"><img src="imagenes/twiter.png" width="30" height="30" alt=""  /></a></li>
+                                           <li ><a href="https://www.facebook.com/CONAFOR.Central" target="_blank"><img src="imagenes/facebook.jpg"  width="30" height="30" alt=""/></a></li>
+                                           <%--<li ><a href="http://www.conacyt.mx/index.php/fondos-y-apoyos/fondos-sectoriales" target="_blank"><img src="imagenes/watts.jpg"  width="30" height="30" alt="" /></a></li>--%>      
+                                           <%--<li ><a href="http://www.gob.mx/conafor" target="_blank"><img src="imagenes/hotmail.png"  width="30" height="30" alt=""/></a></li>--%> 
+                                              <li><a href="https://www.youtube.com/channel/UCoWWO_lK5arImCwY6GbaeeQ?rel=0&autoplay=1" target="_blank"><img src="images/2014/YOUTUBE.jpg" width="30" height="30" alt="CANAL CONAFOR" /></a></li> 
                                     </ul>
                                     <br />
                                     <br />
@@ -111,10 +112,10 @@
                            
                                 <div class="enlaces" style="top: 0px; left: 0px;">
 		              	            <ul>      
-                                                        <li ><a href="http://www.conacyt.gob.mx/" target="_blank"><img src="imagenes/redes.jpg" width="30%" height="80" alt=""  /></a></li>
-                                                        <li ><a href="http://www.gob.mx/conafor" target="_blank"><img src="imagenes/CEVMF.jpeg"  width="30%" height="80" alt=""/></a></li>
-                                                        <li ><a href="http://www.conacyt.mx/index.php/fondos-y-apoyos/fondos-sectoriales" target="_blank"><img src="imagenes/revista.jpg"  width="30%" height="80" alt="" /></a></li>                           
-                                   
+                                                        <li ><a href="https://www.gob.mx/conafor/acciones-y-programas/redes-nacionales-de-investigacion-forestal?idiom=es" target="_blank"><img src="imagenes/redes.jpg" width="30%" height="80" alt=""  /></a></li>
+                                                        <li ><a href="http://www.monitoreoforestal.gob.mx/" target="_blank"><img src="imagenes/CEVMF.jpeg"  width="30%" height="80" alt=""/></a></li>
+                                                        <li ><a href="http://www.gob.mx/conafor/acciones-y-programas/innovacion-forestal?idiom=es" target="_blank"><img src="imagenes/revista.jpg"  width="30%" height="80" alt="" /></a></li>                           
+                                                      
                                     </ul>
 		                        </div>
                            
