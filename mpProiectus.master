@@ -110,10 +110,11 @@
                                     <br />
                                     <ul class="listado3"  >                                          
                                                                                                               
-                                           <li ><a href="http://www.conacyt.gob.mx/" target="_blank"><img src="imagenes/twiter.png" width="30" height="30" alt=""  /></a></li>
-                                           <li ><a href="http://www.gob.mx/conafor" target="_blank"><img src="imagenes/facebook.jpg"  width="30" height="30" alt=""/></a></li>
-                                           <li ><a href="http://www.conacyt.mx/index.php/fondos-y-apoyos/fondos-sectoriales" target="_blank"><img src="imagenes/watts.jpg"  width="30" height="30" alt="" /></a></li>      
-                                           <li ><a href="http://www.gob.mx/conafor" target="_blank"><img src="imagenes/hotmail.png"  width="30" height="30" alt=""/></a></li>  
+                                           <li ><a href="https://twitter.com/Conafor" target="_blank"><img src="imagenes/twiter.png" width="30" height="30" alt=""  /></a></li>
+                                           <li ><a href="https://www.facebook.com/CONAFOR.Central" target="_blank"><img src="imagenes/facebook.jpg"  width="30" height="30" alt=""/></a></li>
+                                           <%--<li ><a href="http://www.conacyt.mx/index.php/fondos-y-apoyos/fondos-sectoriales" target="_blank"><img src="imagenes/watts.jpg"  width="30" height="30" alt="" /></a></li>--%>      
+                                           <%--<li ><a href="http://www.gob.mx/conafor" target="_blank"><img src="imagenes/hotmail.png"  width="30" height="30" alt=""/></a></li>--%> 
+                                              <li><a href="https://www.youtube.com/channel/UCoWWO_lK5arImCwY6GbaeeQ?rel=0&autoplay=1" target="_blank"><img src="images/2014/YOUTUBE.jpg" width="30" height="30" alt="CANAL CONAFOR" /></a></li> 
                                     </ul>
                                     <br />
                                     <br />
@@ -125,11 +126,14 @@
                                 </div>
                            
                                 <div class="enlaces" style="top: 0px; left: 0px;">
+                                      <p style="text-align:center; margin-top=0%; margin-bottom=0;">
+                                        <span  class="videos-link"><strong style="color:black;">Sitios Relacionados</strong> </span>
+                                      </p>
 		              	            <ul>      
-                                                        <li ><a href="http://www.conacyt.gob.mx/" target="_blank"><img src="imagenes/redes.jpg" width="30%" height="80" alt=""  /></a></li>
-                                                        <li ><a href="http://www.gob.mx/conafor" target="_blank"><img src="imagenes/CEVMF.jpeg"  width="30%" height="80" alt=""/></a></li>
-                                                        <li ><a href="http://www.conacyt.mx/index.php/fondos-y-apoyos/fondos-sectoriales" target="_blank"><img src="imagenes/revista.jpg"  width="30%" height="80" alt="" /></a></li>                           
-                                   
+                                                        <li ><a href="http://www.conacyt.gob.mx/" target="_blank"><img src="imagenes/redes.jpg" width="25%" height="50" alt=""  /></a></li>
+                                                        <li ><a href="http://www.gob.mx/conafor" target="_blank"><img src="imagenes/CEVMF.jpeg"  width="25%" height="50" alt=""/></a></li>
+                                                        <li ><a href="http://www.conacyt.mx/index.php/fondos-y-apoyos/fondos-sectoriales" target="_blank"><img src="imagenes/revista.jpg"  width="25%" height="50" alt="" /></a></li>                           
+                                                       
                                     </ul>
 		                        </div>
                            

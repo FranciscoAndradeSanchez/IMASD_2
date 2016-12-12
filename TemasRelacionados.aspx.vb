@@ -577,11 +577,12 @@ Partial Class TemasRelacionados
         pnlNavegacionUp.Visible = True
         pnlNavegacionDw.Visible = False
     End Sub
+    'alberto
     Protected Sub frmvProyecto_Detalle_DataBound(ByVal sender As Object, ByVal e As System.EventArgs) Handles frmvProyecto_Detalle.DataBound
-        CType(frmvProyecto_Detalle.FindControl("lblCveProyectoST"), Label).Text = CType(frmvProyecto_Detalle.FindControl("lblCveProyectoST"), Label).Text.Replace(Chr(13) & Chr(10), "<br>")
-        CType(frmvProyecto_Detalle.FindControl("lblNombreProyectoST"), Label).Text = CType(frmvProyecto_Detalle.FindControl("lblNombreProyectoST"), Label).Text.Replace(Chr(13) & Chr(10), "<br>")
-        CType(frmvProyecto_Detalle.FindControl("lbInstitucion"), Label).Text = CType(frmvProyecto_Detalle.FindControl("lbInstitucion"), Label).Text.Replace(Chr(13) & Chr(10), "<br>")
-        CType(frmvProyecto_Detalle.FindControl("lbTitulo"), Label).Text = CType(frmvProyecto_Detalle.FindControl("lbTitulo"), Label).Text.Replace(Chr(13) & Chr(10), "<br>")
+        'CType(frmvProyecto_Detalle.FindControl("id_temaLabel1"), Label).Text = CType(frmvProyecto_Detalle.FindControl("id_temaLabel1"), Label).Text.Replace(Chr(13) & Chr(10), "<br>")
+        'CType(frmvProyecto_Detalle.FindControl("Nombre_ProyectoTextBox"), Label).Text = CType(frmvProyecto_Detalle.FindControl("Nombre_ProyectoTextBox"), Label).Text.Replace(Chr(13) & Chr(10), "<br>")
+        'CType(frmvProyecto_Detalle.FindControl("InstitucionTextBox"), Label).Text = CType(frmvProyecto_Detalle.FindControl("InstitucionTextBox"), Label).Text.Replace(Chr(13) & Chr(10), "<br>")
+        'CType(frmvProyecto_Detalle.FindControl("TituloTextBox"), Label).Text = CType(frmvProyecto_Detalle.FindControl("TituloTextBox"), Label).Text.Replace(Chr(13) & Chr(10), "<br>")
         'CType(frmvProyecto_Detalle.FindControl("lbllink"), Label).Text = CType(frmvProyecto_Detalle.FindControl("lbllink"), Label).Text.Replace(Chr(13) & Chr(10), "<br>")
         'CType(frmvProyecto_Detalle.FindControl("lblImpactosEsperadosST"), Label).Text = CType(frmvProyecto_Detalle.FindControl("lblImpactosEsperadosST"), Label).Text.Replace(Chr(13) & Chr(10), "<br>")
         'CType(frmvProyecto_Detalle.FindControl("lblUsuarioTTST"), Label).Text = CType(frmvProyecto_Detalle.FindControl("lblUsuarioTTST"), Label).Text.Replace(Chr(13) & Chr(10), "<br>")

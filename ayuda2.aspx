@@ -19,7 +19,7 @@
                      
                       <li><a href="modo_ingreso.aspx">Modo de Ingresar</a></li>
                       <li><a href="contacto_gerencia.aspx">Contactanos.aspx</a></li>
-                      <li><a href="busqueda_proyectos.aspx">Busqueda de proyectos</a></li>
+                      <li><a href="RegistroProyectos.aspx">Busqueda de proyectos</a></li>
                       <li><a href="lectura_proyectos.aspx">Lectura de proyectos</a></li>
                       <li><a href="descarga_productos.aspx">Descarga de productos</a></li>                      
                  </ul>
