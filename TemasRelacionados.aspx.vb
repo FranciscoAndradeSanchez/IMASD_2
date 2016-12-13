@@ -727,6 +727,7 @@ Partial Class TemasRelacionados
         End If
         Try
             taAdmPago.Insert(id_tema, txtTitulo, Now, PathProducts & NewNameArchivo)
+            Response.Redirect("~/TemasRelacionados.aspx")
         Catch ex As Exception
 
         End Try
@@ -782,11 +783,12 @@ Partial Class TemasRelacionados
                 Dim taEtapaProducto As New dsAppTableAdapters.Temas_Relacionados_ProductosTableAdapter
 
                 Dim CveProyecto As String = strArchivo(0)
+                Dim Titulo As String = strArchivo(2)
                 Dim NumeroFile As Integer = 0
                 Try
                     '********* LUIS RANGEL ************
                     'Obtener los datos de la DB
-                    Dim rowProducto As dsApp.Temas_Relacionados_ProductosRow = taEtapaProducto.GetCatProductosTR(Integer.Parse(CveProyecto))(0)
+                    Dim rowProducto As dsApp.Temas_Relacionados_ProductosRow = taEtapaProducto.GetTemaTituloCat(Integer.Parse(CveProyecto), Titulo)(0)
                     Dim arrArchivo() As String = rowProducto.Ruta.Split("|")
                     'Entra el Polo
                     'Esta instrucción da un problema si el nombre del archivo contiene espacios (LVC)
@@ -797,7 +799,7 @@ Partial Class TemasRelacionados
                     'Encontrar el archivo
 
                     'PathProducts
-                    Response.TransmitFile(Server.MapPath(PathProducts & arrArchivo(NumeroFile)))
+                    Response.TransmitFile(Server.MapPath(arrArchivo(NumeroFile)))
 
                     Response.End()
                     '********* FIN LUIS RANGEL *********

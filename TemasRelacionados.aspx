@@ -354,12 +354,12 @@
                                                                                     <table border="0" cellpadding="3" cellspacing="0" class="tablaComun" width="100%">
                                                                                         <tr>
                                                                                             <td style="width: 16%">
-                                                                                                <asp:ImageButton ID="ibtnEditarPGItm" runat="server" CommandName="Edit" ImageUrl="~/images/aplicacion/btnEditar.gif" CausesValidation="false" /></td>
+                                                                                              <%--  <asp:ImageButton ID="ibtnEditarPGItm" runat="server" CommandName="Edit" ImageUrl="~/images/aplicacion/btnEditar.gif" CausesValidation="false" />--%></td>
                                                                                             <td style="width: 34%">&nbsp;
                                                                         <asp:LinkButton ID="lnkbAdminPago" runat="server" CommandArgument='<%# Eval("Ruta")%>' Text='<%# Eval("Titulo") %>' CommandName="Bajalo"></asp:LinkButton>
                                                                                             </td>
                                                                                             <td style="width: 16%">
-                                                                                                <asp:ImageButton ID="ibtnEliminarPGItm" runat="server" CommandName="Delete" ImageUrl="~/images/aplicacion/btnEliminar.gif" CausesValidation="false" />
+                                                                                               <%-- <asp:ImageButton ID="ibtnEliminarPGItm" runat="server" CommandName="Delete" ImageUrl="~/images/aplicacion/btnEliminar.gif" CausesValidation="false" />--%>
                                                                                                 <asp:CustomValidator ID="cuvPGILista" runat="server" ForeColor="">x</asp:CustomValidator>
                                                                                             </td>
                                                                                         </tr>
@@ -483,7 +483,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td style="width: 30%">Nombre_Proyecto:
+                            <td style="width: 30%">Nombre Proyecto:
                             </td>
                             <td style="width: 70%">
                                 <asp:TextBox ID="Nombre_ProyectoTextBox" runat="server" Text='<%# Bind("Nombre_Proyecto") %>' />
@@ -528,7 +528,7 @@
                             <td colspan="2" class="thtablaComun">Datos Generales</td>
                         </tr>
                         <tr>
-                            <td style="width: 30%">Nombre_Proyecto:
+                            <td style="width: 30%">Nombre Proyecto:
                             </td>
                             <td style="width: 70%">
                                 <asp:TextBox ID="Nombre_ProyectoTextBox" runat="server" Text='<%# Bind("Nombre_Proyecto") %>' />
@@ -565,17 +565,17 @@
                 <ItemTemplate>
                     <table cellpadding="3" cellspacing="0" class="tablaComun" width="90%" align="center" border="0">
                         <tr>
-                            <td colspan="2" class="thtablaComun">Datos Generales</td>
+                            <td colspan="3" class="thtablaComun">Datos Generales</td>
                         </tr>
                         <tr>
-                            <td>id_tema:
+                            <td style="width:30%">id tema:
                             </td>
-                            <td>
+                            <td style="width:70%">
                                 <asp:Label ID="id_temaLabel" runat="server" Text='<%# Eval("id_tema") %>' />
                             </td>
                         </tr>
                         <tr>
-                            <td>Nombre_Proyectos:                    
+                            <td>Nombre Proyectos:                    
                             </td>
                             <td>
                                 <asp:Label ID="Nombre_ProyectoLabel" runat="server" Text='<%# Bind("Nombre_Proyecto") %>' />
