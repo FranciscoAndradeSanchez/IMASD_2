@@ -42,7 +42,7 @@
                     <DynamicMenuItemStyle ItemSpacing="2px" VerticalPadding="0px" />
                     <StaticHoverStyle CssClass="elementoMenuHover" />
                     <DynamicItemTemplate>
-                        <%# Eval("Text") %>
+                       <%# Eval("Text") %>
                     </DynamicItemTemplate>
                 </asp:Menu>
             </div>
