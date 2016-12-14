@@ -36,6 +36,7 @@
             top: 8%;
             left: 1%;
             float:left;
+            color: white;
         }
 
         .tbPass {
@@ -46,11 +47,13 @@
             width: 70%;
             left: 20%;
             float:right;
+           
         }
         .labcon{
             top: 20%;
             left: 1%;
             float:left;
+            color:white;
         }
         
 
@@ -76,6 +79,7 @@
             position: absolute;
             left: 287px;
             top: 91px;
+            color:white;
         }
 
         div.botonIngresa {
