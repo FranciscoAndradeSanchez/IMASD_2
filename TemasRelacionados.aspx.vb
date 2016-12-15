@@ -866,4 +866,7 @@ Partial Class TemasRelacionados
     End Sub
     '**** FIN LUIS RANGEL ******
 
+    Protected Sub linkLabel_Click(sender As Object, e As EventArgs)
+        
+    End Sub
 End Class
