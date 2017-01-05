@@ -490,7 +490,7 @@ Partial Class TemasRelacionados
             'If txtlinkAdd.Text = String.Empty Then
             '    txtlinkAdd.Text = "N/A"
             'End If
-            taTemas.spTemasRelacionados_Insert(txtNombreAdd.Text, ddlInstitucionAdd.SelectedValue, txtTituloAdd.Text, "")
+            taTemas.spTemasRelacionados_Insert(txtNombreAdd.Text, ddlInstitucionAdd.SelectedValue, txtTituloAdd.Text, txtlinkAdd.Text)
 
             lblEstatusAdd.Text = "Proyecto ' " & txtCveTemasBuscar.Text & " ' insertado con éxito"
             lblEstatusAdd.Visible = True
@@ -866,4 +866,7 @@ Partial Class TemasRelacionados
     End Sub
     '**** FIN LUIS RANGEL ******
 
+    Protected Sub linkLabel_Click(sender As Object, e As EventArgs)
+        
+    End Sub
 End Class

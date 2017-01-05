@@ -53,7 +53,7 @@
                     <br /> <br />
                      <div id="header"><div class="wrap">
    <div id="slide-holder">
-<div id="slide-runner">
+<div id="slide-runner" >
             
             <a href=""><img id='slide-img-1' src='images/Banner%20de%20manuales.jpg' width="1200"; height="400" class="slide" alt="" /></a>
                 
@@ -127,7 +127,7 @@
                            
                                 <div class="enlaces" style="top: 0px; left: 0px;">
                                       <p style="text-align:center; margin-top=0%; margin-bottom=0;">
-                                        <span  class="videos-link"><strong style="color:black;">Sitios Relacionados</strong> </span>
+                                        <span  class="videos-link"><strong style="color:white;">Sitios Relacionados</strong> </span>
                                       </p>
 		              	            <ul>      
                                                         <li ><a href="http://www.conacyt.gob.mx/" target="_blank"><img src="imagenes/redes.jpg" width="25%" height="50" alt=""  /></a></li>

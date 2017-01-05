@@ -181,14 +181,14 @@
                                             </tr> 
                                             <tr>
                                                 <td style="width:20%">
-                                                    id_tema:
+                                                    id tema:
                                                 </td>
                                                 <td style="width:80%" align="left">
                                                     <asp:LinkButton ID="id_temaLabelgvp" runat="server"  CommandName="Select" Text='<%# Eval("id_tema")%>' ></asp:LinkButton>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td>Nombre_Proyectos:                     
+                                                <td>Nombre Proyectos:                     
                                                 </td>
                                                 <td>
                                                     <asp:Label ID="Nombre_ProyectoLabelgvp" runat="server" Text='<%# Bind("Nombre_Proyecto") %>' />
@@ -208,13 +208,14 @@
                                                     <asp:Label ID="TituloLabelgvp" runat="server" Text='<%# Bind("Titulo") %>' />
                                                 </td>
                                             </tr>
-                                           <%-- <tr>
+                                            <tr>
                                                 <td>link:                   
                                                 </td>
                                                 <td>
-                                                    <asp:Label ID="linkLabelgvp" runat="server" Visible="false" Text='<%# Bind("link") %>' />
+                                                    <a href="<%# String.Format(Bind("link"), Bind("link"))%>" target="_blank" > <asp:Label Text='<%# Bind("link")%>' runat="server" ID="linklabel2"> </asp:Label> </a>
+
                                                 </td>
-                                            </tr>--%>
+                                            </tr>
                                             <tr>
                                                 <td>
                                                     <asp:TextBox ID="txtValgvp" runat="server" MaxLength="1" ReadOnly="True" Width="1px"></asp:TextBox>
@@ -271,13 +272,13 @@
                                                     <asp:TextBox ID="TituloEdit" runat="server" Text='<%# Bind("Titulo") %>' />
                                                 </td>
                                             </tr>
-                                            <%--<tr>
+                                            <tr>
                                                 <td>link:                       
                                                 </td>
                                                 <td>
-                                                    <asp:TextBox ID="linkEdit" runat="server" Visible="false" Text='<%# Bind("link") %>' />
+                                                    <asp:TextBox ID="linkEdit" runat="server" Visible="true" Text='<%# Bind("link") %>' />
                                                 </td>
-                                            </tr>--%>
+                                            </tr>
                                             <tr>
                                                 <td></td>
                                                 <td>
@@ -503,13 +504,13 @@
                                 <asp:TextBox ID="TituloTextBox" runat="server" Text='<%# Bind("Titulo") %>' />
                             </td>
                         </tr>
-                       <%-- <tr>
+                        <tr>
                             <td>link:                       
                             </td>
                             <td>
-                                <asp:TextBox ID="linkTextBox" runat="server" Visible="false" Text='<%# Bind("link") %>' />
+                                <asp:TextBox ID="linkTextBox" runat="server" Text='<%# Bind("link") %>' />
                             </td>
-                        </tr>--%>
+                        </tr>
                           
                         <tr>
                             <td></td>
@@ -548,13 +549,13 @@
                                 <asp:TextBox ID="TituloTextBox" runat="server" Text='<%# Bind("Titulo") %>' />
                             </td>
                         </tr>
-                        <%--<tr>
+                        <tr>
                             <td style="width: 30%">link:
                             </td>
                             <td style="width: 70%">
-                                <asp:TextBox ID="linkTextBox" runat="server" Visible="false" Text='<%# Bind("link") %>' />
+                                <asp:TextBox ID="linkTextBox" runat="server"  Text='<%# Bind("link") %>' />
                             </td>
-                        </tr>--%>
+                        </tr>
                         <tr>
                             <td>
                                 <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Insertar" />
@@ -568,9 +569,9 @@
                             <td colspan="3" class="thtablaComun">Datos Generales</td>
                         </tr>
                         <tr>
-                            <td style="width:30%">id tema:
+                            <td style="width:15%">id tema:
                             </td>
-                            <td style="width:70%">
+                            <td style="width:85%">
                                 <asp:Label ID="id_temaLabel" runat="server" Text='<%# Eval("id_tema") %>' />
                             </td>
                         </tr>
@@ -595,13 +596,14 @@
                                 <asp:Label ID="TituloLabel" runat="server" Text='<%# Bind("Titulo") %>' />
                             </td>
                         </tr>
-                        <%--<tr>
+                        <tr>
                             <td>link:                   
                             </td>
-                            <td>
-                                <asp:Label ID="linkLabel" runat="server" Text='<%# Bind("link") %>' />
+                            <td>                                 
+                               <a href="<%# String.Format(Eval("link"), Eval("link"))%>" target="_blank" > <asp:Label Text='<%# Eval("link")%>' runat="server" ID="linklabel"> </asp:Label> </a>
+
                             </td>
-                        </tr>--%>
+                        </tr>
                             <tr>
                     <td >  
                         <asp:DataList ID="dtlProductosST" runat="server" DataKeyField="id_tema"
@@ -746,12 +748,12 @@
                                             ForeColor="" ToolTip="Titulo del tema relacionado tiene caracteres no permitidos" ValidationExpression="^[0-9a-zA-ZñÑÁáÉéÍíÓóÚúÜü/°\s!\x22\#\$%\x26'()*\+,\-.¿?¡:;_\\\d\n]{0,}$">x</asp:RegularExpressionValidator>
                                 </td>
                             </tr>
-                            <%--<tr>
+                            <tr>
                                 <td style="width: 30%">Link del Proyecto</td>
                                 <td style="width: 70%">
                                     <asp:TextBox ID="txtlinkAdd" runat="server" MaxLength="300" Rows="4" TextMode="MultiLine" Width="400px"></asp:TextBox>
                                 </td>
-                            </tr>--%>
+                            </tr>
                             <tr>
                                 <td colspan="2"></td>
                             </tr>
@@ -777,5 +779,6 @@
             </table>
         </asp:View>
     </asp:MultiView>
+   
 </asp:Content>
 
