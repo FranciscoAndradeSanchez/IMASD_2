@@ -133,17 +133,19 @@ body
 }
 .pie small{ font-size:11px; }
 .contactanos{ float: left;    margin-right: 35px; }
-.contactanos a{ color:#000000; text-transform:uppercase; text-decoration:none;   font-family: Soberana Titular;}
+.contactanos a{ color:#000000;  text-decoration:none;   font-family: SoberanaSans;}
 .contactanos img {vertical-align: middle;}
+
+p{ color:#000000;  text-decoration:none;   font-family: SoberanaSans;}
 
 /*Contenidos, Textos, Listas*/
 h2{ font-family: Soberana Titular; color:#006F3D; font-size:24px;}
 h3{ font-family: Soberana Titular; color:#006F3D; font-size:18px;}
-p,ul, p > ul , div {    font-family:Soberana Titular,Times New Roman; text-align: justify;   font-size: 18px;    line-height: 160%; }
+p,ul, p > ul , div {    font-family:SoberanaSans,Times New Roman; text-align: justify;   font-size: 18px;    line-height: 160%; }
 .left {text-align:left;}
 .en_linea{ display:inline; }
 
-span.resaltado { text-transform:uppercase; color:#006F3D; padding-right:2em;  font-family: Soberana Titular; font-size:16px; }
+span.resaltado { text-transform:uppercase; color:#006F3D; padding-right:2em;  font-family: SoberanaSans; font-size:16px; }
 
 ul.horizontal{margin: 0;padding: 0;list-style-type: none;text-align: center;}
 ul.horizontal li { display: inline-block; list-style-type: none; padding-right: 20px; }

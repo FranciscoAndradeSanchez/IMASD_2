@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="cphPrincipalInterna" Runat="Server">
     
      <div class="col1">
-        <img src="../images/imagenes_ayuda/descarga_productos.PNG" style="margin:auto;" width="75%" height="75%"/>
+        <img src="images/imagenes_ayuda/descarga_productos.PNG" style="margin:auto;" width="75%" height="75%"/>
     </div>
     <div class="col2">
         <div class="videos" style="margin-top:10%; margin-right:5%;">

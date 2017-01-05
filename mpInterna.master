@@ -105,22 +105,21 @@
                                     <br />
                                     <small>Gerencia de Desarrollo y Transferencia de Tecnología. 
                                         Comisión Nacional Forestal. Carretera Nogales Esq. Periférico pte. #5360 Col. San Juan de Ocotán 
-                                        Zapopan, Jalisco, http://www.conafor.gob.mx
+                                        Zapopan, Jalisco, http://www.gob.mx/conafor
                             
                                     </small>
                                 </div>
                            
                                  <div class="enlaces" style="top: 0px; left: 0px;">
                                       <p style="text-align:center; margin-top=0%; margin-bottom=0;">
-                                        <span  class="videos-link"><strong style="color:black;">Sitios Relacionados</strong> </span>
+                                        <span class="videos-link"><strong style="color:white;">Sitios Relacionados</strong> </span>
                                       </p>
-		              	            <ul>      
-                                                        <li ><a href="http://www.conacyt.gob.mx/" target="_blank"><img src="imagenes/redes.jpg" width="25%" height="50" alt=""  /></a></li>
-                                                        <li ><a href="http://www.gob.mx/conafor" target="_blank"><img src="imagenes/CEVMF.jpeg"  width="25%" height="50" alt=""/></a></li>
-                                                        <li ><a href="http://www.conacyt.mx/index.php/fondos-y-apoyos/fondos-sectoriales" target="_blank"><img src="imagenes/revista.jpg"  width="25%" height="50" alt="" /></a></li>                           
-                                                       
+		              	              <ul>      
+                                            <li><a href="http://www.conacyt.gob.mx/" target="_blank"><img src="imagenes/redes.jpg" width="32%" height="70" alt=""></a></li>
+                                            <li><a href="http://www.gob.mx/conafor" target="_blank"><img src="imagenes/CEVMF.jpeg" width="32%" height="70" alt=""></a></li>
+                                            <li><a href="http://www.conacyt.mx/index.php/fondos-y-apoyos/fondos-sectoriales" target="_blank"><img src="imagenes/revista.jpg" width="32%" height="70" alt=""></a></li> 
                                     </ul>
-		                        </div>
+		                    </div>
                            
                      </div><!-- /row-pie-->
     </div><!-- /row-->

@@ -221,10 +221,25 @@
             &nbsp;<asp:ImageButton ID="ibtnRegistrar" runat="server" ImageUrl="~/images/aplicacion/btnRegistrar.gif" PostBackUrl="~/Registro.aspx" /></td>
     </tr>
         <tr>
-            <td colspan="2" style="height: 16px">
-                &nbsp;
-            </td>
-        </tr>
+                        <td colspan="2" >
+                            <p style="text-align:justify; font-size:14px;" ><strong></strong>Leyenda de Protección de Datos: </p>
+                            
+                            <p style="text-align:justify; font-size:10px;">Los datos personales recabados serán protegidos y serán incorporados 
+                                y tratados en el Sistema de datos personales Sistema de Control y Seguimiento de Proyectos de 
+                                Desarrollo, Transferencia de Tecnología e Investigación, con fundamento en lo establecido en los 
+                                artículos 20 y 21 de la Ley Federal de Transparencia y Acceso a la Información Pública Gubernamental,
+                                 68 de la Ley General de Transparencia y Acceso a la Información Pública, 113 y 114 de la Ley Federal
+                                 de Transparencia y Acceso a la Información Pública. La Unidad Administrativa responsable del Sistema
+                                 de datos personales es Gerencia de Desarrollo y Transferencia de Tecnología adscrita a la Coordinación
+                                 General de Educación y Desarrollo Tecnológico, y la dirección donde el interesado podrá ejercer los
+                                 derechos de acceso y corrección ante la misma es Periférico Poniente No. 5360, Col. San Juan de Ocotán,
+                                 C.P. 45019 Zapopan Jalisco. Lo anterior se informa en cumplimiento del Decimoséptimo de los Lineamientos
+                                 de Protección de Datos Personales, publicados en el Diario Oficial de la Federación el 30 de septiembre
+                                 de 2005.
+
+                            </p>    
+                        </td>
+                    </tr>
                 <tr style="font-size: 9pt">
                 <td style="height: 16px" colspan="2">
                     <asp:SiteMapPath ID="smpContactanosInf" runat="server">
@@ -246,10 +261,11 @@
                         </td>
 
                     </tr>
-                    <tr>
+                   <%-- <tr>
                         <td colspan="2" style="height: 21px">
                             &nbsp;</td>
-                    </tr>
+                    </tr>--%>
+                      
          <tr>
             <th colspan="2" class="thtablaComun">Registro de Usuarios</th>
         </tr>

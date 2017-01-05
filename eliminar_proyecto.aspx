@@ -6,7 +6,7 @@
    
 
     <div class="col1">
-        <img src="../images/imagenes_ayuda/eliminar_proyecto.PNG" style="margin:auto;" width="75%" height="75%" />
+        <img src="images/imagenes_ayuda/eliminar_proyecto.PNG" style="margin:auto;" width="75%" height="75%" />
     </div>
     <div class="col2">
         <div class="videos" style="margin-top:10%; margin-right:5%;">

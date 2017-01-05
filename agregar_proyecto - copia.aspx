@@ -3,6 +3,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="cphCabecera" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphPrincipalInterna" Runat="Server">
-    <img src="../images/imagenes_ayuda/agregar_proyecto.PNG" style="margin:auto;"/>
+    <img src="images/imagenes_ayuda/agregar_proyecto.PNG" style="margin:auto;"/>
 </asp:Content>
 

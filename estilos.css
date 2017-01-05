@@ -52,7 +52,7 @@
 	height: 62px;
 	font-size: 8pt;
 	
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	text-align: right;
 	direction: ltr;
 	text-indent: 15px;
@@ -61,7 +61,7 @@
 {
 	font-weight: normal;
 	font-size: 8pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	text-decoration: underline;
 	
 }
@@ -69,7 +69,7 @@
 {
 	font-weight: normal;
 	font-size: 8pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	/*text-decoration: underline;*/
 	
 }
@@ -77,7 +77,7 @@
 {
 	font-weight: normal;
 	font-size: 8pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	/*text-decoration: underline;*/
 	
 }
@@ -85,7 +85,7 @@
 {
 	font-weight: normal;
 	font-size: 8pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	/*text-decoration: underline;*/
 	
 }
@@ -151,7 +151,7 @@
 	font-size: 8pt;
 	vertical-align: top;
 	
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	text-align: left;
 	margin-left: 5px;
 }
@@ -163,7 +163,7 @@
 	font-size: 8pt;
 	vertical-align: top;
 	
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	text-align: left;
 	margin-left: 5px;
 }
@@ -179,7 +179,7 @@ a:link
 {
 	font-weight: bold;
 	font-size: 9pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	text-decoration: underline;
 	color: #333333;
 }
@@ -187,7 +187,7 @@ a:visited
 {
 	font-weight: bold;
 	font-size: 9pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	text-decoration: underline;
 
 }
@@ -195,7 +195,7 @@ a:hover
 {
 	font-weight: bold;
 	font-size: 9pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	text-decoration: underline;
 	color: #999999;
 }
@@ -203,7 +203,7 @@ a:active
 {
 	font-weight: bold;
 	font-size: 9pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	text-decoration: underline;
 	
 }
@@ -213,7 +213,7 @@ a:active
 .tablaComun td
 {
 	font-size: 9pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	
 	vertical-align: top;
 }
@@ -221,7 +221,7 @@ a:active
 .thtablaComun
 {
 	font-size: 11pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	text-align: left;
 	color: #888888;
 	vertical-align: middle;
@@ -236,7 +236,7 @@ a:active
 /*.tablaComun span
 {
 	font-size: 8pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	font-weight: bold;
 	color: #FFD700;
 }*/
@@ -310,7 +310,7 @@ a:active
 #Calendario th
 {
 	font-size: 11pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	text-align: left;
 	color: #FFD700;
 	vertical-align: middle;
@@ -319,7 +319,7 @@ a:active
 .tablaHeaderTemplate
 {
 	font-size: 9pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	
 	border-top: white 1px solid;
 }
@@ -327,7 +327,7 @@ a:active
 .tablaHeaderTemplate th
 {
 	font-size: 9pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	
 	font-weight: bold;
 	text-align: left;
@@ -338,7 +338,7 @@ a:active
 .tablaItemTemplate
 {
 	font-size: 9pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	color: #333; /*TODO*/
 	border-top: white 1px solid;
 }
@@ -346,7 +346,7 @@ a:active
 .tablaItemTemplate th
 {
 	font-size: 9pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	color: #646569;
 	font-weight: bold;
 	text-align: left;
@@ -354,7 +354,7 @@ a:active
 .tablaAlternatigTemplate
 {
 	font-size: 9pt;
-	font-family: 'Soberana Sans',Arial, Helvetica;
+	font-family: 'Soberana Sans',SoberanaSans Helvetica;
 	background-color:#E6E7E8;
 	color:#646569;
 
@@ -366,7 +366,7 @@ a:active
 .tablaAlternatigTemplate th
 {
 	font-size: 9pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	font-weight: bold;
 	text-align: left;
 }
@@ -378,14 +378,14 @@ a:active
 	font-size: 9pt;
 	border-left: white 1px dashed;
 	border-bottom: white 1px dashed;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 }
 .tablaEditarTemplate td{	border: hidden;}
 .tablaEditarTemplate th
 {
 	background-image: url(images/aplicacion/fondomenu.jpg);
 	font-size: 7pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 	font-weight: normal;
 	font-style: italic;
 }
@@ -395,7 +395,7 @@ a:active
 	vertical-align: middle;
 	text-align: left;
 	font-size: 9pt;
-	font-family: Arial, Helvetica;
+	font-family: SoberanaSans Helvetica;
 }
 .tablaListaTemplate th{	border: hidden;}
 .tablaListaTemplate a:hover
@@ -494,7 +494,7 @@ a.Catalogo_Item
 {
 	font-size: small;
 	
-	font-family: Arial, Verdana;
+	font-family: SoberanaSans Verdana;
 }
 img
 {

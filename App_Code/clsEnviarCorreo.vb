@@ -154,8 +154,8 @@ Public Class clsEnviarCorreo
     End Sub
 
     Protected Sub ConfigurarMail()
-        strEncabezadoCorreo = "<html><head><style type=""text/css""><!--a {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;}" & _
-            "td {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10pt;}--></style></head><body><table width=""75%""><tr><td>"
+        strEncabezadoCorreo = "<html><head><style type=""text/css""><!--a {font-family: Verdana, SoberanaSans Helvetica, sans-serif; font-size: 10pt;}" & _
+            "td {font-family: Verdana, SoberanaSans Helvetica, sans-serif; font-size: 10pt;}--></style></head><body><table width=""75%""><tr><td>"
         strPieCorreo = "</td></tr><tr><td><hr>" & strDesuscribir & "</td></tr></table></body></html>"
         'Cechar la exepcion del correo de developer
         Dim bMailsToDeveloper As Boolean
