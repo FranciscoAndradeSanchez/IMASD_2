@@ -38,7 +38,7 @@
 
                     <div id="logos" class="logotipos" style="width:100%; height:90px;" >                                 
                                 <ul id="listado1" >
-                                    <li style="float:left; width:450px;"><div class="encabezado_titulo" ><h3>Sistema de Control y Seguimiento de Proyectos de Desarrollo, Transferencia de Tecnología e Investigación</h3></div></li>
+                                    <li style="float:left; width:40%;"><div class="encabezado_titulo" ><h3>Sistema de Control y Seguimiento de Proyectos de Desarrollo, Transferencia de Tecnología e Investigación</h3></div></li>
                                     <li style="width: 50%; float: right; height: 90px; margin-top: 10px;">
                                         <ul id="listado2" style="float:right;">
                                             <li ><a href="http://www.conacyt.gob.mx/" target="_blank"><img src="images/2014/semarnat_150.png" width="25%" height="10%" alt=""  /></a></li>
@@ -52,33 +52,33 @@
                 
                     <br /> <br />
                      <div id="header"><div class="wrap">
-   <div id="slide-holder">
-<div id="slide-runner" >
-            
-            <a href=""><img id='slide-img-1' src='images/Banner%20de%20manuales.jpg' width="1200"; height="400" class="slide" alt="" /></a>
-                
-            <a href=""><img id='slide-img-2' src='images/Banners%20pantallas-02.jpg' width="1200"; height="400" class="slide" alt="" /></a>
-                
-            <a href=""><img id='slide-img-3' src='images/Banners%20pantallas-19.jpg' width="1200"; height="400"  class="slide" alt="" /></a>
-                
-            <a href=""><img id='slide-img-4' src='images/Banners%20pantallas-21.jpg' width="1200"; height="400" class="slide" alt="" /></a>
-                
-            <a href=""><img id='slide-img-5' src='images/IMAGEN%20I%20(2).JPG' width="1200"; height="400" class="slide" alt="" /></a>
-                
-            <a href=""><img id='slide-img-6' src='images/Imagen%20I.JPG' width="1200"; height="400"  class="slide" alt="" /></a>
 
-            <a href=""><img id='slide-img-7' src='images/Imagen%20II.JPG' width="1200"; height="400" class="slide" alt="" /></a>
+<div id="slide-holder">
+        <div id="slide-runner">
+            
+                    <a href=""><img id='slide-img-1' src='images/Banner%20de%20manuales.jpg' width="100%"; height="100%" class="slide" alt="" /></a>
+                
+                    <a href=""><img id='slide-img-2' src='images/Banners%20pantallas-02.jpg' width="100%"; height="100%" class="slide" alt="" /></a>
+                
+                    <a href=""><img id='slide-img-3' src='images/Banners%20pantallas-19.jpg' width="100%"; height="100%"  class="slide" alt="" /></a>
+                
+                    <a href=""><img id='slide-img-4' src='images/Banners%20pantallas-21.jpg' width="100%"; height="100%" class="slide" alt="" /></a>
+                
+                    <a href=""><img id='slide-img-5' src='images/IMAGEN%20I%20(2).JPG' width="100%"; height="100%" class="slide" alt="" /></a>
+                
+                     <a href=""><img id='slide-img-6' src='images/Colocar-Banners%20pantallas-12.jpg' width="100%"; height="100%"  class="slide" alt="" /></a>
+
+                    <a href=""><img id='slide-img-7' src='images/Colocar-Banners%20pantallas-22.jpg' width="100%"; height="100%" class="slide" alt="" /></a>    
              
     
-    <div id="slide-controls">
-     <p id="slide-client" class="text"><strong>post: </strong><span></span></p>
-     <p id="slide-desc" class="text"></p>
-     <p id="slide-nav"></p>
-    </div>
-</div>
-	
+                    <div id="slide-controls">
+                     <%--<p id="slide-client" class="text"><strong>post: </strong><span></span></p>
+                     <p id="slide-desc" class="text"></p>--%>
+                     <p id="slide-nav"></p>
+                    </div>
+        </div>	
 	<!--content featured gallery here -->
-   </div>
+</div>
        
        <script type="text/javascript">
            if (!window.slider) var slider = {};
@@ -120,22 +120,23 @@
                                     <br />
                                     <small>Gerencia de Desarrollo y Transferencia de Tecnología. 
                                         Comisión Nacional Forestal. Carretera Nogales Esq. Periférico pte. #5360 Col. San Juan de Ocotán 
-                                        Zapopan, Jalisco, http://www.conafor.gob.mx
+                                        Zapopan, Jalisco, http://www.gob.mx/conafor
                             
                                     </small>
                                 </div>
-                           
-                                <div class="enlaces" style="top: 0px; left: 0px;">
-                                      <p style="text-align:center; margin-top=0%; margin-bottom=0;">
-                                        <span  class="videos-link"><strong style="color:white;">Sitios Relacionados</strong> </span>
+                                                   
+                                
+                            <div class="enlaces" style="top: 0px; left: 0px; ">
+                                      <p style="text-align:center; margin-top=0%; margin-bottom=0; height:8%">
+                                        <span class="videos-link"><strong style="color:white;">Sitios Relacionados</strong> </span>
                                       </p>
-		              	            <ul>      
-                                                        <li ><a href="http://www.conacyt.gob.mx/" target="_blank"><img src="imagenes/redes.jpg" width="25%" height="50" alt=""  /></a></li>
-                                                        <li ><a href="http://www.gob.mx/conafor" target="_blank"><img src="imagenes/CEVMF.jpeg"  width="25%" height="50" alt=""/></a></li>
-                                                        <li ><a href="http://www.conacyt.mx/index.php/fondos-y-apoyos/fondos-sectoriales" target="_blank"><img src="imagenes/revista.jpg"  width="25%" height="50" alt="" /></a></li>                           
+		              	            <ul style="align-items: center;">      
+                                                        <li><a href="http://www.conacyt.gob.mx/" target="_blank"><img src="imagenes/redes.jpg" width="32%" height="55px" alt=""></a></li>
+                                                        <li><a href="http://www.gob.mx/conafor" target="_blank"><img src="imagenes/CEVMF.jpeg" width="32%" height="55px" alt=""></a></li>
+                                                        <li><a href="http://www.conacyt.mx/index.php/fondos-y-apoyos/fondos-sectoriales" target="_blank"><img src="imagenes/revista.jpg" width="32%" height="55px" alt=""></a></li>                           
                                                        
                                     </ul>
-		                        </div>
+		                    </div>
                            
                      </div><!-- /row-pie-->
                 </div><!-- /row-->

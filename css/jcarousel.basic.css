@@ -30,8 +30,8 @@
 .jcarousel {
     position: relative;
     overflow: hidden;
-    width: 600px;
-    height: 400px;
+    width: 50%;
+    height: 15%;
 }
 
 .jcarousel ul {
