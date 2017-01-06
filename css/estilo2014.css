@@ -189,7 +189,7 @@ ul.horizontal li a {color:#646569;  font-family: Times New Roman;   font-size: 1
 /*  Botones   */
 div.boton_container  
     {
-    background-image:url(../images/2014/boton.png);
+    /*background-image:url(../images/2014/boton.png);*/
     width:137px;
     height:50px;
     display:inline-block;
@@ -207,7 +207,8 @@ div.boton_container > input.boton {
     position: absolute;
     text-align: center;
     top: 7px;
-    width: 121px;
+    width: 55%;
+    height: 65%;
     cursor:pointer;
     }
 

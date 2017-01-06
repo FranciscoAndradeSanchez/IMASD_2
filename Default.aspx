@@ -77,7 +77,7 @@
             position: absolute;
             left: 287px;
             top: 81px;
-        }
+        } 
 
         div.botonIngresa {
             position: absolute;
@@ -98,7 +98,18 @@
         }
 
         div.botonIngresa > input.boton {
-            left: 2px;
+            left: 20%;
+            background-image: url(../images/2014/botoningresar.PNG);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            
+        }
+
+        div.botonRegistra > input.boton{
+            left: 22%;
+            background-image: url(../images/2014/botonRegistrar.PNG);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
         }
 
         .olvido {
@@ -116,9 +127,9 @@
         .btIngresar {
             background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
             bottom: 50px;
-            left: 112px;
+            left: 10%;
             position: absolute;
-            width: 117px;
+            width: 50%;
         }
     </style>
 </asp:Content>
@@ -177,10 +188,10 @@
    
                     
                     <div class="boton_container botonIngresa">
-                        <asp:Button ID="ibtnIngresar" CssClass="boton" Text="Ingresar"  runat="server" PostBackUrl="~/Default.aspx" />
+                        <asp:Button ID="ibtnIngresar" CssClass="boton" Text=""  runat="server" PostBackUrl="~/Default.aspx" />
                     </div>
                     <div class="boton_container botonRegistra">
-                        <asp:Button runat="server" ID="ibtnRegistrar" CssClass="boton"  Text="Registrarse" PostBackUrl="~/Registro.aspx" CausesValidation="False" UseSubmitBehavior="False" ValidateRequestMode="Disabled" ViewStateMode="Disabled"/>
+                        <asp:Button runat="server" ID="ibtnRegistrar" CssClass="boton"  Text="" PostBackUrl="~/Registro.aspx" CausesValidation="False" UseSubmitBehavior="False" ValidateRequestMode="Disabled" ViewStateMode="Disabled"/>
                    
                     </div>
          
