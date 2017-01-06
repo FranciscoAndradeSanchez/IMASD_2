@@ -98,8 +98,13 @@
         }
 
         div.botonIngresa > input.boton {
-            left: 2px;
+            left: 20%;
         }
+
+         div.botonRegistra > input.boton {
+            left: 20%;
+        }
+
 
         .olvido {
             bottom: 50%;
@@ -170,7 +175,7 @@
 
                 <asp:ValidationSummary ID="vsInicioSesion" runat="server" CssClass="validacion" />
                 <asp:HyperLink ID="hlnkReiniciarContra" runat="server" CssClass="olvido" NavigateUrl="~/Reiniciarcontra.aspx" style=" font-size:14px;" >¿Olvidó su contraseña?</asp:HyperLink>&nbsp;
-                <asp:HyperLink ID="hlnkAyuda" runat="server"  CssClass="ayuda" NavigateUrl="~/ayuda/ayuda.aspx" Target="_blank" style="font-size:14px;">Ayuda</asp:HyperLink>
+                <asp:HyperLink ID="hlnkAyuda" runat="server"  CssClass="ayuda" NavigateUrl="~/ayuda/ayuda2.aspx" Target="_blank" style="font-size:14px;">Ayuda</asp:HyperLink>
 
 
         
